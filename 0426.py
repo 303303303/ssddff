@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import os
 from matplotlib import font_manager, rc
 # 한글 폰트 경로 설정
-font_path = 'AppleGothic.ttf'
+font_path = 'NanumGothic.ttf'
 font = font_manager.FontProperties(fname=font_path).get_name()
 rc('font', family=font)
 # 폰트 설정
